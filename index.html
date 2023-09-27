@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galleta de La Suerte</title>
+    <link rel="shortcut icon" href="./assets/cookie.svg" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Dancing+Script&family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="screen1">
+        <h1>¿Cuál es tu suerte hoy?</h1>
+        <p>¡Abre la galleta y descúbrela!</p>
+        <div class="fortune-cookie">
+          <img
+            id="btnCookie"
+            src="./assets/cookie.svg"
+            alt="Imagen de una galleta."
+          />
+        </div>
+      </div>
+
+      <div class="screen2 hide">
+        <h2>Aquí está tu suerte de hoy:</h2>
+        <div class="text-box">
+          <p id="phrases">
+            Si alguien está demasiado cansado que no pueda sonreírte, déjale tu
+            sonrisa.
+          </p>
+        </div>
+        <div class="open-cookie">
+          <img
+            src="./assets/open-cookie.png"
+            alt="Imagen de una galleta por la mitad."
+          />
+        </div>
+        <button id="btnReset">Abrir otra galleta</button>
+      </div>
+    </main>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
